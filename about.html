@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>ECO-Earth</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo2.png"></a>
+			<div class="nav-links" id="navLinks"> 
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="explore.html">EXPLORE</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h1>About Us</h1>
+	</section>
+
+<!------------------About Us Page---------------->
+<section class="about_us">
+	<div class="row">
+		<div class="about_col">
+			<h1>ECO-Earth Community<br> Make this world become better.</h1>
+			<p>Since 2022, Eco-Earth thrives because of people like you who believe that the world can be better. We’re able to make change happen through the collective effort of passionate individuals pushing for solutions, or starting the change themselves.  </p>
+			<h3>Story</h3>
+	 			<p>We based in the Philippine, ECO-Earth established in 2022 founded by Jared Simon R. Danao to promote and protecting the ecosystem. So this issues and problem can cause the different disasters. We asure that this website can help for our society because unity can change the world. </p>
+	 		<h3>Our Mission</h3>
+	 			<p>An effective approach to solve many of the world's complex issues by aligning commercial interests and societal needs with multi-stakeholder collaboration, anchored in a shared purpose</p>
+	 			<h3>Our Vision</h3>
+	 			<p>The power of people working together to collectively make change, far outweighs the inaction and apathy of a few. That's our goal - create movements where people can contribute to the best of their ability, and help them realize their true power.</p>
+	 			
+			<a href="explore.html" class="hero-btn green-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about_col">
+			<img src="images/aboutus.jpg">
+			<img src="images/aboutus2.jpg">
+			<img src="images/aboutus.jpeg">
+		</div>
+	</div>
+	
+</section>
+
+
+
+
+
+<!----------Footer---------->
+<section class="footer">
+	<h4>About Us</h4>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-youtube"></i>
+	</div>
+	<p>We based in the Philippine, ECO-Earth established in 2022 to promote and protecting <br> the ecosystem in the world. You save the world. Join us!<br>ECO-Earth <i class="fa fa-flag"></i>. Founded by Jared Simon R. Danao</p>
+</section>
+
+
+<!-----------------javascript for toggle menu----------------->
+	<script type="text/javascript">
+		
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+		}
+
+
+	</script>
+</body>
+</html>
